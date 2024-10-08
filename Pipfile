@@ -9,13 +9,11 @@ pillow = "*"
 django-environ = "*"
 python-decouple = "*"
 whitenoise = "*"
-gunicorn = "==19.9.0"
+gunicorn = "*"
+psycopg2-binary = "*"
+environs = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.8"
-
-[packages.environs]
-extras = [ "django",]
-version = "==8.0.0"
