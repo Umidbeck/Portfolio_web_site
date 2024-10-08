@@ -1,0 +1,8 @@
+Django>=3.2,<4.0
+Pillow
+django-environ
+python-decouple
+whitenoise
+gunicorn
+psycopg2-binary
+environs
